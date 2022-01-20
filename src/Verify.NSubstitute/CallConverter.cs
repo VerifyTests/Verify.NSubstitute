@@ -4,11 +4,7 @@ using NSubstitute.Core;
 class CallConverter :
     WriteOnlyJsonConverter<ICall>
 {
-    public override void WriteJson(
-        JsonWriter writer,
-        ICall value,
-        JsonSerializer serializer,
-        IReadOnlyDictionary<string, object> context)
+    public override void Write(VerifyJsonWriter writer, ICall value, JsonSerializer serializer)
     {
         var target = new
         {
