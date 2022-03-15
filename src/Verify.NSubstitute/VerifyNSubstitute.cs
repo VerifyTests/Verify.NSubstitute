@@ -2,8 +2,7 @@
 
 public static class VerifyNSubstitute
 {
-    public static void Enable()
-    {
+    public static void Enable() =>
         VerifierSettings.ModifySerialization(settings =>
         {
             settings.AddExtraSettings(serializerSettings =>
@@ -12,5 +11,4 @@ public static class VerifyNSubstitute
                 converters.Add(new CallConverter());
             });
         });
-    }
 }
