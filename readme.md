@@ -18,7 +18,7 @@ https://nuget.org/packages/Verify.NSubstitute/
 ```cs
 [ModuleInitializer]
 public static void Init() =>
-    VerifyNSubstitute.Enable();
+    VerifyNSubstitute.Initialize();
 ```
 <sup><a href='/src/Tests/ModuleInitializer.cs#L3-L9' title='Snippet source file'>snippet source</a> | <a href='#snippet-enable' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
