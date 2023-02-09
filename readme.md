@@ -1,5 +1,6 @@
 # <img src="/src/icon.png" height="30px"> Verify.NSubstitute
 
+[![Discussions](https://img.shields.io/badge/Verify-Discussions-yellow?svg=true&label=)](https://github.com/orgs/VerifyTests/discussions)
 [![Build status](https://ci.appveyor.com/api/projects/status/2yqj2feuuhlb1kf0?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-NSubstitute)
 [![NuGet Status](https://img.shields.io/nuget/v/Verify.NSubstitute.svg)](https://www.nuget.org/packages/Verify.NSubstitute/)
 
