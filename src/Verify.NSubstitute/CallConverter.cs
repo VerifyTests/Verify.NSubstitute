@@ -8,7 +8,7 @@ class CallConverter :
         var target = new
         {
             Method = value.GetMethodInfo(),
-            Arguments = value.GetArguments(),
+            Arguments = value.GetArguments()
         };
         writer.Serialize(target);
     }
