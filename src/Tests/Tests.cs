@@ -1,6 +1,5 @@
 ﻿using NSubstitute;
 
-[UsesVerify]
 public class Tests
 {
     #region ReceivedCalls
