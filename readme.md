@@ -42,7 +42,7 @@ public interface ITarget
 It `.ReceivedCalls()` can be verified:
 
 <!-- snippet: ReceivedCalls -->
-<a id='snippet-receivedcalls'></a>
+<a id='snippet-ReceivedCalls'></a>
 ```cs
 [Fact]
 public Task Test()
@@ -52,7 +52,7 @@ public Task Test()
     return Verify(target.ReceivedCalls());
 }
 ```
-<sup><a href='/src/Tests/Tests.cs#L5-L15' title='Snippet source file'>snippet source</a> | <a href='#snippet-receivedcalls' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Tests.cs#L5-L15' title='Snippet source file'>snippet source</a> | <a href='#snippet-ReceivedCalls' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 Will result in:
