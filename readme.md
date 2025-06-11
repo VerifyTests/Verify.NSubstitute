@@ -9,6 +9,12 @@ types.
 
 **See [Milestones](../../milestones?state=closed) for release notes.**
 
+
+## Sponsors
+
+include: zzz
+
+
 ## NuGet
 
  * https://nuget.org/packages/Verify.NSubstitute
