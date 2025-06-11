@@ -9,9 +9,10 @@ types.
 
 **See [Milestones](../../milestones?state=closed) for release notes.**
 
-## NuGet package
+## NuGet
 
-https://nuget.org/packages/Verify.NSubstitute/
+ * https://nuget.org/packages/Verify.NSubstitute
+
 
 ## Usage
 
